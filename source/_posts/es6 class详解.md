@@ -1,7 +1,7 @@
 ---
 title: es6 class详解
 date: 2017-12-25 22:47:17
-tags: es6 javascript
+tags: [es6,javascript]
 categories:
   - javascript
 ---

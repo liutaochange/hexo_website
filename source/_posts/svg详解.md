@@ -1,7 +1,7 @@
 ---
 title: svg 详解
 date: 2018-1-14 22:47:17
-tags: svg html5
+tags: [svg,html5]
 categories:
   - svg
 ---

@@ -1,7 +1,7 @@
 ---
 title: 利用hexo搭建自己的博客
 date: 2017-08-26 23:34:17
-tags: hexo 博客 
+tags: [hexo,博客] 
 categories:
   - hexo
 ---

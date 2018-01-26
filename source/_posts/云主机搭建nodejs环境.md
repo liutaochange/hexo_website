@@ -1,7 +1,7 @@
 ---
 title: 搭建 Node.js 环境
 date: 2017-11-23 22:47:17
-tags: nodejs 环境 
+tags: [nodejs]
 categories:
   - node
 ---
