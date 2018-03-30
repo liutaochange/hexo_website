@@ -4,7 +4,7 @@
 
 # Site
 title: Liu tao
-subtitle: 个人博客
+subtitle: 些许疯狂 些许偏执
 description: 前端 javascript web hexo html css
 author: Liu tao
 language: zh-Hans
@@ -74,11 +74,19 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next
 
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
+#添加搜索
+algolia:
+  appId: 'E36EBA1XV4'
+  apiKey: '8ae5613c38af02f2e683052b35ffd5dd'
+  adminApiKey: 'db458fd29232cf0bab11447077c2cd30'
+  indexName: 'index'
+  chunkSize: 5000
+  fields:
+    - title
+    - slug
+    - path
+    - content:strip
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
