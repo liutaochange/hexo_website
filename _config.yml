@@ -74,18 +74,19 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next
 
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
 #添加搜索
 algolia:
   appId: 'E36EBA1XV4'
-  apiKey: '8ae5613c38af02f2e683052b35ffd5dd'
+  apiKey: '4b0f256eea49abb8b2bfaded8680386c'
   adminApiKey: 'db458fd29232cf0bab11447077c2cd30'
   indexName: 'index'
   chunkSize: 5000
-  fields:
-    - title
-    - slug
-    - path
-    - content:strip
 
 
 # Deployment
