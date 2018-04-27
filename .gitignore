@@ -9,3 +9,4 @@ public
 \.settings/
 build/env.js
 dist
+package-lock.json
